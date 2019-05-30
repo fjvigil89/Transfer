@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { Upredes } from '../interface/upredes';
+
 
 @Injectable({
   providedIn: 'root'
@@ -9,11 +7,8 @@ import { Upredes } from '../interface/upredes';
 export class ContactoService {
  
 
-  apiurl = '/api/trabajadores/4016';
-  constructor( private httpClient: HttpClient) {}
+  
+  constructor( ) {}
 
-  getData(){
-    return this.httpClient.get<Upredes>(this.apiurl);
-  }
   
 }
