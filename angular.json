@@ -29,7 +29,8 @@
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./src/app/toolbar/toolbar.js"
+              "./src/app/toolbar/toolbar.js",
+              "./src/app/servicios/servicios.js"
               
             ],
             "es5BrowserSupport": true
