@@ -28,6 +28,9 @@ import { FooterComponent } from './footer/footer.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { ConstruccionComponent } from './construccion/construccion.component';
+import { NuestrosServiciosComponent } from './nuestros-servicios/nuestros-servicios.component';
+import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 
 
 
@@ -40,15 +43,15 @@ import { NoticiasComponent } from './noticias/noticias.component';
     LaredComponent,
     FooterComponent,
     PrincipalComponent,
-    UsuarioComponent,
-    NoticiasComponent
+    UsuarioComponent,    
+    NoticiasComponent, ConstruccionComponent, NuestrosServiciosComponent, EstadisticasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    //MaterialModule,
+    MaterialModule,
     AppRoutersModule,
     AlertModule.forRoot()
   ],

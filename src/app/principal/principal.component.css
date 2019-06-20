@@ -6,12 +6,15 @@
       line-height: 30px;
       text-align: justify;
 }
+#myCarousel{
+  margin-top: -30px;
+}
 
 #myCarousel .carousel-item .mask {
     position: absolute;
-    top: 0;
-	left:0;
-	height:100%;
+    top: 0;    
+	  left:0;
+	  height:100%;
     width: 100%;
     background-attachment: fixed;
 }
@@ -21,7 +24,8 @@
 	color:#FFF;
 	line-height:100%;
 	letter-spacing:0.5px;
-	font-weight:600;
+  font-weight:600;
+  
 }
 #myCarousel p{
 	font-size:18px;

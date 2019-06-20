@@ -30,7 +30,9 @@
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./src/app/toolbar/toolbar.js",
-              "./src/app/servicios/servicios.js"
+              "./src/app/servicios/servicios.js",
+              "./src/app/construccion/construccion.js",
+              "./src/app/estadisticas/estadisticas.js"
               
             ],
             "es5BrowserSupport": true
