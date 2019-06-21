@@ -7,32 +7,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServiciosComponent implements OnInit {
 
-  proyectos= [
-    {      
-      imagen: "limpiezas.png",
+  proyectos= [    
+    {
+      path: "assets/proyectos/construccion/",
+      imagen: "principal.jpg",
       link: 'construccion',
-      title: "LImpieza"
-    },
-    {     
-      imagen: "limpiezas1.png",
-      link: 'construccion',
-      title: "LImpieza"
+      title: "Construcción"      
     },
     {
-      imagen: "metalurgia.png",
-      link: 'construccion',
-      title: "Metalurgia"
+      path: "assets/proyectos/limpieza/",
+      imagen: "principal.jpg",
+      link: 'limpieza',
+      title: "Limpieza"
     },
     {
-      imagen: "proyecto_parroquia.png",
-      link: 'construccion',
-      title: "Parroquea"
+      path: "assets/proyectos/metalurgica/",
+      imagen: "principal.jpg",
+      link: 'metalurgica',
+      title: "Metalurgica"
     },
-    {
-      imagen: "proyecto_urbanizacion.png",
-      link: 'construccion',
-      title: "Urbanización"
-    }
+    /*{
+      path: "assets/proyectos/carpinteria/",
+      imagen: "principal.jpg",
+      link: 'carpinteria',
+      title: "Carpinteria"
+    }*/
   ];
 
 

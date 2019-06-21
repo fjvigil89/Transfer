@@ -31,6 +31,9 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { ConstruccionComponent } from './construccion/construccion.component';
 import { NuestrosServiciosComponent } from './nuestros-servicios/nuestros-servicios.component';
 import { EstadisticasComponent } from './estadisticas/estadisticas.component';
+import { LimpiezaComponent } from './limpieza/limpieza.component';
+import { MetalirgicaComponent } from './metalirgica/metalirgica.component';
+import { CarpinteriaComponent } from './carpinteria/carpinteria.component';
 
 
 
@@ -44,7 +47,7 @@ import { EstadisticasComponent } from './estadisticas/estadisticas.component';
     FooterComponent,
     PrincipalComponent,
     UsuarioComponent,    
-    NoticiasComponent, ConstruccionComponent, NuestrosServiciosComponent, EstadisticasComponent
+    NoticiasComponent, ConstruccionComponent, NuestrosServiciosComponent, EstadisticasComponent, LimpiezaComponent, MetalirgicaComponent, CarpinteriaComponent
   ],
   imports: [
     BrowserModule,

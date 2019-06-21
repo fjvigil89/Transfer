@@ -1,5 +1,6 @@
 http: // themeinnovation.com/demo2/html/build-up/img/home1/service-banner.png
-$(document).ready(function () {
+$(document).ready(function () {  
+
   $('.thumbHolder a').click(function (e) {
     e.preventDefault()
     $('#big-image-modal div.spinicon').show()

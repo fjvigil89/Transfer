@@ -29,10 +29,12 @@
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./src/app/principal/principal.js",
               "./src/app/toolbar/toolbar.js",
               "./src/app/servicios/servicios.js",
               "./src/app/construccion/construccion.js",
-              "./src/app/estadisticas/estadisticas.js"
+              "./src/app/estadisticas/estadisticas.js",
+              "./src/app/limpieza/limpieza.js"
               
             ],
             "es5BrowserSupport": true
